@@ -1,5 +1,6 @@
 package strategieDesignPattern;
 
+import strategieDesignPattern.interfaceImplementers.GoByDrivingAlgorithm;
 import strategieDesignPattern.vehicleSubClasses.*;
 
 public class Program {
