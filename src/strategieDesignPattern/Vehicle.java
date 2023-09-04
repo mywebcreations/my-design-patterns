@@ -11,7 +11,7 @@ public class Vehicle {
 		this.goAlgorithm = goAlgorithm;
 	}
 	
-	public void go() {
-		goAlgorithm.go();
+	public String go() {
+		return goAlgorithm.go();
 	}
 }
