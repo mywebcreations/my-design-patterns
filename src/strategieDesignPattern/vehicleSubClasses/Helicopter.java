@@ -1,5 +1,11 @@
 package strategieDesignPattern.vehicleSubClasses;
 
-public class Helicopter {
+import strategieDesignPattern.Vehicle;
+import strategieDesignPattern.interfaceImplementers.GoByFlyingAlgorithm;
+
+public class Helicopter extends Vehicle {
+	public Helicopter() {
+		setGoAlgorithm(new GoByFlyingAlgorithm());  
+	}
 
 }
