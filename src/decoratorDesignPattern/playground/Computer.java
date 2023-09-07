@@ -5,7 +5,7 @@ public class Computer {
 		
 	}
 	
-	protected String make() {
+	protected String add() {
 		return "Computer";
 	}
 

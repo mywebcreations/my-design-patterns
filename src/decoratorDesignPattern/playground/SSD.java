@@ -8,7 +8,7 @@ public class SSD extends ComputerDecorator {
 	}
 	
 	public String add() {
-		return " and SSD ";
+		return computer.add() + " and SSD";
 	}
 
 }

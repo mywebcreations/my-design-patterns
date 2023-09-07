@@ -8,6 +8,6 @@ public class OpticalDrive extends ComputerDecorator {
 	}
 	
 	public String add() {
-		return " and Optical Drive ";
+		return computer.add() + " and Optical Drive";
 	}
 }

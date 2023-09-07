@@ -8,6 +8,6 @@ public class HDD extends ComputerDecorator {
 	}
 	
 	public String add() {
-		return " and HDD ";
+		return computer.add() + " and HDD";
 	}
 }

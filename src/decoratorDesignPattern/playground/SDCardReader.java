@@ -8,6 +8,6 @@ public class SDCardReader extends ComputerDecorator {
 	}
 	
 	public String add() {
-		return " and SDCardReader ";
+		return computer.add() + " and SDCardReader";
 	}
 }
